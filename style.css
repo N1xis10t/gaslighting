@@ -1,0 +1,63 @@
+#pageHead {
+    width: 50vw;
+    height: 80vh;
+    margin: auto;
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4vw;
+}
+
+#scrollDown {
+    transition: all 0.5s ease-in-out;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+#normal, #friendly {
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-style: italic;
+}
+
+#andS {
+    transition: all 1s ease-in-out;
+}
+
+#forst {
+    height: 90vh;
+    padding-top: 10vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-bottom: 100vh;
+}
+
+#forst > header, #conclusion > header {
+    font-style: italic;
+    color: green;
+}
+
+#grendle {
+    padding: 1em;
+    font-style: italic;
+    background-color: lightgrey;
+}
+
+#scrollDown2 {
+    transition: all 0.5s ease-in-out;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: green;
+}
+
+#conclusion {
+    padding-top: 90vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 20vh;
+}
